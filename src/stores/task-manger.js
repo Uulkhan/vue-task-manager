@@ -115,4 +115,5 @@ export const useTaksManagerStore = defineStore("task-manager", {
       this.data.push(newProject);
     },
   },
+  persist: true,
 });
