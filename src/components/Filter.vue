@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="data && data.length">
     <p v-if="title">{{ title }}
     </p>
     <div class="badges">

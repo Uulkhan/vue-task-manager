@@ -37,12 +37,10 @@ onUnmounted(() => {
   position: fixed;
   left: 0;
   top: 0;
-
   z-index: 500;
-
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.6);
 
   display: grid;
   place-items: center;
